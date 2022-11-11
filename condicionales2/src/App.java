@@ -14,7 +14,7 @@ public class App {
 
         if (peliculaAlquilar.equals("si")) {
             System.out.println(
-                    "Que pelicula desdea alquilar 1: One Piece film red 2: Dragon ball super la batalla de los dioses, 3:¿que paso ayer 3?");
+                    "Que pelicula desea alquilar 1: One Piece film red 2: Dragon ball super la batalla de los dioses, 3:¿que paso ayer 3?");
             pelicula = teclado.nextInt();
             if (pelicula == 1) {
                 System.out.println(
